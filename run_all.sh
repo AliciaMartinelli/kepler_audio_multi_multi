@@ -32,9 +32,3 @@ run_with_log train_Ridge.py mfcc
 run_with_log train_RF.py rms
 run_with_log train_RF.py zcr
 run_with_log train_RF.py mfcc
-
-# Mel Spectrogram
-# run_with_log train_XGB.py mel_spectrogram
-# run_with_log train_KNN.py mel_spectrogram
-# run_with_log train_RF.py mel_spectrogram
-# run_with_log train_Ridge.py mel_spectrogram

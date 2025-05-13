@@ -6,7 +6,6 @@ import optuna
 from sklearn.linear_model import RidgeClassifier
 from sklearn.model_selection import StratifiedKFold, train_test_split
 from sklearn.metrics import f1_score, precision_score, recall_score, roc_auc_score, confusion_matrix, precision_recall_curve, roc_curve
-from sklearn.utils.class_weight import compute_class_weight
 import matplotlib.pyplot as plt
 from PIL import Image
 import joblib
